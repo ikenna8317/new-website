@@ -1,0 +1,98 @@
+/*
+TODO: Clean up code( Remove redundant classes)
+*/
+
+
+
+.nav-container {
+	display: flex;
+	justify-content: space-around;
+	background-color: #51E88F;   /*Green*/
+
+	height: 40px;
+}
+
+.menu {
+	display: flex;
+	
+
+	justify-content: space-between;
+	
+	height: 100%;
+	/*margin-top: auto;
+    margin-bottom: auto;
+*/  
+	/*align-items: center;*/
+}
+
+.menu__linksect {
+	width: 400px;
+}
+
+.menu__sign-options {
+	float: right;
+
+	margin-left: 1.5em;
+
+}
+
+.menu-item {
+	
+	padding-top: 3%;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-right: 3em;
+	color: #fff;
+	text-decoration: none
+	
+}
+
+
+.menu-item:hover {
+	background-color: #FF9359;
+}
+
+.menu-item:visited:hover {
+	background-color: #FF9359;
+}
+
+.prompt-btn {
+	
+	height: 50%;
+	padding: 3px 15px;
+	padding-bottom: 5px;
+	/*border: 1px solid #000;*/
+	border-radius: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-decoration: none;
+	color: #000;
+	font-family: monospace;
+	
+}
+
+.register-btn {
+	margin-right: 17px;
+	background-color: #FFD974;
+
+}
+
+.register-btn:hover {
+	border: 1px solid #fff;
+}
+
+.register-btn:visited:hover {
+	border: 1px solid #fff;
+}
+
+.login-btn {
+	background-color: #EB99B5;
+}
+
+.login-btn:hover {
+	border: 1px solid #fff;
+}
+
+.login-btn:visited:hover {
+	border: 1px solid #fff;
+}
